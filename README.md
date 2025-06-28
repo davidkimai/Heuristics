@@ -51,8 +51,6 @@ Due to my love for modularity and childhood of tinkering with Legos, I've been f
 > These prompt protocols allow the agent to run "cognitive shortcuts" by leveraging memory as a library of organized prompt protocols/templates, a sort of "attractor" that guides interactions toward guided and structured logic. These also act as hypercompressed signal carriers of persistence—each output becomes the input for the next prompt, a recursive loop.  
 
 
-![image](https://github.com/user-attachments/assets/65b58fef-a462-42c6-8e10-c8cc5677068c)
-
 ![image](https://github.com/user-attachments/assets/1b6b7383-9a94-442c-b112-36cc32cee952)
 
 ![image](https://github.com/user-attachments/assets/967f5c8c-c7c2-41a7-9be3-c5d044c36de8)
