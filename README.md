@@ -31,7 +31,139 @@ Due to my history of modular love and childhood of tinkering with Legos, I've be
 
 | Human faculty                                                                                    | LLM analogue (when templates live in memory)                     | Practical effect                                                                                     |
 | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| **Heuristics**—rules of thumb stored in long-term memory (e.g., “work backwards from the goal”). | **Protocol shells / templates** (e.g., `/field.self_repair`)     | Instantly supply a *mini-algorithm* that guides reasoning without fresh chain-of-thought every time. |
+| **Heuristics**—rules of thumb stored in long-term memory (e.g., “work backwards from the goal”). | **Prompt Protocols / templates** (e.g., `/field.self_repair`)     | Instantly supply a *mini-algorithm* that guides reasoning without fresh chain-of-thought every time. |
 | **Chunking & schemas** (experts recall a chess board as patterns, not 64 pieces).                | **Composite scaffolds** (Pareto-lang, fractal.json)              | Reduces cognitive load: one retrieval = dozens of low-level steps.                                   |
 | **Procedural memory** (how to ride a bike, double-entry book-keeping).                           | **Callable sub-routines** inside the LLM’s external memory       | Complex multi-stage outputs come out “fluid” and consistent.                                         |
 | **Scripted social routines** (“greet, small-talk, bid farewell”).                                | **Interaction patterns** (“surface residue → integrate → audit”) | Smooth conversational flow, predictable structure, fewer mistakes.                                   |
+
+
+## Prompt Protocols
+> Note: Protocols include a pseudo-code style of what I like to call prompt programming. This may be because LLMs can recognize structure and syntax better than they can recognize text. The delimiters allow for nesting and recursion (layering thought), and the structure allows scaffolding reasoning in a more dynamic sense then Chain of Thought. 
+
+![image](https://github.com/user-attachments/assets/c39833a9-16dd-4d4c-91ca-9f607cbe7c48)
+
+### Template: 
+
+
+
+```yaml
+/protocol.shell{
+    intent="State the protocol’s purpose (e.g. co-create new feature, resolve dispute, audit field, brainstorm, compress knowledge, ...)",
+    input={
+        context={
+            domain="short string",
+            participants=[ "human", "ai", "group", ... ],
+            meta={ "project": "string", "repo": "string", ... }
+        },
+        prior_state=<optional_previous_state>,
+        surfaced_residue=[ "unresolved issues", "latent questions", ... ],
+        candidate_attractors=[ "protocol", "idea", "challenge", "target", ... ]
+    },
+    process=[
+        /reflection.log{
+            entry="Surface new insight or question.",
+            field_delta=<describe change, decision, or insight>,
+            recursion_depth=<int>
+        },
+        /action.step{
+            task="Describe concrete collaborative step or micro-protocol.",
+            owner="agent/human/ai",
+            expected_output="description"
+        },
+        /residue.update{
+            surfaced=[ "fragment", ... ],
+            integration_action="compress, resolve, delegate, ...",
+            residue_impact="amplifies, blocks, redirects"
+        },
+        /boundary.collapse{
+            from="discrete/rigid",
+            to="gradient/adaptive",
+            status="updated/complete"
+        }
+    ],
+    output={
+        field_update="Summarize updated state/progress.",
+        surfaced_residue=[ ... ],
+        resonance_score=<float>
+    },
+    meta={
+        timestamp=<now>,
+        agent_signature="optional identity",
+        version="v1.0.0"
+    }
+}
+
+```
+
+
+
+## Fractal Schemas For Mental Chunking
+
+![image](https://github.com/user-attachments/assets/350d1fd5-6609-4fd0-a949-cb5120503c29)
+
+
+```yaml
+{
+  "$schema": "http://fractal.recursive.net/schemas/fractalField.v1.json",
+  "title": "Fractal Recursive Collaboration Field",
+  "description": "A dynamic field schema for encoding, exchanging, and evolving context, intention, memory, and residue for AI/human collaboration.",
+  "fractalVersion": "1.0.0",
+  "instanceID": "uuid-string",
+  "intent": "Short statement of high-level protocol objective (e.g. coordinate, co-create, resolve, adapt, audit, etc)",
+  "context": {
+    "domain": "string (e.g. software, research, negotiation, art, governance, ...)",
+    "participants": [
+      { "role": "human/ai/agent", "id": "string", "signature": "optional" }
+    ],
+    "temporal": {
+      "start": "ISO timestamp",
+      "end": "ISO timestamp"
+    },
+    "meta": { "project": "string", "repo": "string", "tags": ["..."], "priority": "low/medium/high" }
+  },
+  "fieldState": {
+    "compression": 0.85,
+    "drift": "low",
+    "recursionDepth": 2,
+    "resonance": 0.91,
+    "presenceSignal": 0.88,
+    "boundary": "gradient"
+  },
+  "symbolicResidue": [
+    {
+      "residueID": "uuid-string",
+      "description": "Summarized fragment, insight, or unresolved issue",
+      "state": "surfaced/integrating/integrated/echo",
+      "impact": "describes effect or importance",
+      "timestamp": "ISO timestamp"
+    }
+  ],
+  "attractors": [
+    {
+      "attractorID": "uuid-string",
+      "type": "protocol/idea/goal/constraint/innovation",
+      "description": "Salient attractor or protocol in field",
+      "signalStrength": 0.72,
+      "state": "active/emergent/dormant",
+      "timestamp": "ISO timestamp"
+    }
+  ],
+  "processLog": [
+    {
+      "logID": "uuid-string",
+      "phase": "reflection/fieldUpdate/residueUpdate/boundaryCollapse/audit",
+      "details": "Human/AI-generated log/trace/summary",
+      "delta": { "field": "value-change" },
+      "timestamp": "ISO timestamp"
+    }
+  ],
+  "recursiveNodes": [ /* allow embedding other fractal fields as nodes */ ],
+  "output": {
+    "fieldSummary": "Live summary/compression of the field’s current state.",
+    "resonanceScore": 0.93,
+    "auditLog": [ /* full trace */ ]
+  },
+  "timestamp": "ISO timestamp"
+}
+
+```
