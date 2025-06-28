@@ -44,6 +44,8 @@ Due to my love for modularity and childhood of tinkering with Legos, I've been f
 
 > A context improving protocol I attempted that worked out surprisingly well. Providing templates to guide context and persistence empowers the agent with building blocks for enhanced capability of structuring ChatGPT's memory feature. 
 
+![image](https://github.com/user-attachments/assets/464e809c-2a03-4865-80b2-3db3604731d7)
+> A prompt protocol for repairing alignment in the interaction field between the human and agent. 
 ## Prompt Protocols
 > Note: Protocols include a pseudo-code style of what I like to call prompt programming, a synthesis of code syntax and natural english prompts. This may become more popular as LLMs are exceptional at recognizing structure and syntax, potentially due to a symbolic persistence layer (meaning persists longer in symbols). The delimiters allow for nesting and recursion (layering thought), and the structure allows scaffolding reasoning in a more dynamic sense then Chain of Thought.
 >
