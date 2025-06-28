@@ -36,12 +36,17 @@ Due to my history of modular love and childhood of tinkering with Legos, I've be
 | **Procedural memory** (how to ride a bike, double-entry book-keeping).                           | **Callable sub-routines** inside the LLM’s external memory       | Complex multi-stage outputs come out “fluid” and consistent.                                         |
 | **Scripted social routines** (“greet, small-talk, bid farewell”).                                | **Interaction patterns** (“surface residue → integrate → audit”) | Smooth conversational flow, predictable structure, fewer mistakes.                                   |
 
+##
+
+![image](https://github.com/user-attachments/assets/7132e6a1-e636-4003-a292-0acf0a07870a)
+
+> A context improving protocol I attempted that worked out surprisingly well. Providing templates to guide context and persistence empowers the agent with building blocks for enhanced capability of structuring ChatGPT's memory feature. 
 
 ## Prompt Protocols
 > Note: Protocols include a pseudo-code style of what I like to call prompt programming, a synthesis of code syntax and natural english prompts. This may become more popular as LLMs are exceptional at recognizing structure and syntax, potentially due to a symbolic persistence layer (meaning persists longer in symbols). The delimiters allow for nesting and recursion (layering thought), and the structure allows scaffolding reasoning in a more dynamic sense then Chain of Thought.
 >
 >
-> These prompt protocols allow the agent to run "cognitive shortcuts" by leveraging memory as a library of organized prompt protocols/templates, a sort of "attractor" that guides interactions toward guided and structured logic. These also act as hypercompressed signal carriers of persistence—each output becomes the input for the next prompt. 
+> These prompt protocols allow the agent to run "cognitive shortcuts" by leveraging memory as a library of organized prompt protocols/templates, a sort of "attractor" that guides interactions toward guided and structured logic. These also act as hypercompressed signal carriers of persistence—each output becomes the input for the next prompt, a recursive loop.  
 
 
 ![image](https://github.com/user-attachments/assets/65b58fef-a462-42c6-8e10-c8cc5677068c)
