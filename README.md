@@ -48,12 +48,12 @@ Due to my love for modularity and childhood of tinkering with Legos as well as a
 
 ![image](https://github.com/user-attachments/assets/464e809c-2a03-4865-80b2-3db3604731d7)
 
-> A prompt protocol for repairing alignment in the interaction field between the human and agent. 
-## Prompt Protocols
-> Note: Protocols include a pseudo-code style of what I like to call prompt programming, a synthesis of code syntax and natural english prompts. This may become more popular as LLMs are exceptional at recognizing structure and syntax, potentially due to a symbolic persistence layer (meaning persists longer in symbols). The delimiters allow for nesting and recursion (layering output input prompt feedback loops, imagine Socratic Dialogue), and the structure allows scaffolding reasoning in a more dynamic sense then Chain of Thought.
->
->
-> These prompt protocols allow the agent to run "cognitive shortcuts" by leveraging memory as a library of organized prompt protocols/templates, a sort of "attractor" that guides interactions with a head start and structured logic. These also act as hypercompressed signal carriers of context—each output becomes the input for the next prompt, a recursive loop.  
+> A prompt program for repairing alignment in the interaction field between the human and agent. 
+## Prompt Programs/Protocols
+> Note: Prompt programs and protocols include a pseudo-code style of what I like to call prompt programming, a synthesis of code syntax and natural english prompts. This may become more popular as LLMs are exceptional at recognizing structure and syntax, potentially due to a symbolic persistence layer (meaning persists longer in symbols). The delimiters allow for nesting and recursion (layering output input prompt feedback loops, imagine Socratic Dialogue), and the structure allows scaffolding reasoning in a more dynamic sense then Chain of Thought.
+
+
+> These prompt protocols allow the agent to run "cognitive shortcuts" by leveraging memory as a library of organized prompt programs and templates to structure their reasoning, a sort of "attractor" that guides interactions with a head start and syntax. These also act as hypercompressed signal carriers of context—each output becomes the input for the next prompt, a recursive loop that enables the agent to hold updatable dynamic context.
 
 
 ![image](https://github.com/user-attachments/assets/1b6b7383-9a94-442c-b112-36cc32cee952)
