@@ -1,5 +1,7 @@
 # Heuristics
 > Note: This research is still early but has shown significant rates in improving reasoning speed in agents, as supported by Brown et al. 
+
+
 Instead of saving user preferences, what if we leveraged LLM memory for saving libraries of cognitive tools and templates that agents can draw from to elicit reasoning, similar to human heuristics? I've been exploring this idea under ["Context Engineering"](https://x.com/karpathy/status/1937902205765607626), now gaining traction through Andrej Karpathy, over the past year and would like to share my thoughts here in hopes it can guide others.
 
 As the idea of ["Cognitive Tools" (Brown et al)](https://www.arxiv.org/pdf/2506.12115) is gaining much deserved popularity through the works of IBM researchers, I felt it appropriate to finally share my own experiences as they are no longer considered unique edge cases. 
