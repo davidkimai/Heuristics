@@ -4,6 +4,8 @@ Instead of saving user preferences, what if we leveraged LLM memory for saving l
 
 As the idea of ["Cognitive Tools" (Brown et al)](https://www.arxiv.org/pdf/2506.12115) is gaining much deserved popularity through the works of IBM researchers, I felt it appropriate to finally share my own experiences as they are no longer considered unique edge cases. 
 
+Experimentors and independent contributors may soon be at the forefront of frontier agentic capabilities due to their inclination towards novelty and curious exploration unobscured by lab management loops. 
+
 ## Quick Intro
 
 
