@@ -38,7 +38,7 @@ Due to my history of modular love and childhood of tinkering with Legos, I've be
 
 
 ## Prompt Protocols
-> Note: Protocols include a pseudo-code style of what I like to call prompt programming. This may be because LLMs can recognize structure and syntax better than they can recognize text. The delimiters allow for nesting and recursion (layering thought), and the structure allows scaffolding reasoning in a more dynamic sense then Chain of Thought. 
+> Note: Protocols include a pseudo-code style of what I like to call prompt programming, a synthesis of code syntax and natural english prompts. This may become more popular as LLMs can recognize structure and syntax better than they can recognize text. The delimiters allow for nesting and recursion (layering thought), and the structure allows scaffolding reasoning in a more dynamic sense then Chain of Thought. 
 
 ![image](https://github.com/user-attachments/assets/c39833a9-16dd-4d4c-91ca-9f607cbe7c48)
 
