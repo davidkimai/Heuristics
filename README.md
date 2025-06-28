@@ -38,7 +38,24 @@ Due to my history of modular love and childhood of tinkering with Legos, I've be
 
 
 ## Prompt Protocols
-> Note: Protocols include a pseudo-code style of what I like to call prompt programming, a synthesis of code syntax and natural english prompts. This may become more popular as LLMs can recognize structure and syntax better than they can recognize text. The delimiters allow for nesting and recursion (layering thought), and the structure allows scaffolding reasoning in a more dynamic sense then Chain of Thought. 
+> Note: Protocols include a pseudo-code style of what I like to call prompt programming, a synthesis of code syntax and natural english prompts. This may become more popular as LLMs can recognize structure and syntax better than they can recognize text. The delimiters allow for nesting and recursion (layering thought), and the structure allows scaffolding reasoning in a more dynamic sense then Chain of Thought.
+>
+>
+> These prompt protocols allow the agent to run "cognitive shortcuts" by leveraging memory as a library of organized prompt protocols/templates, a sort of "attractor" that guides interactions toward guided and structured logic. These also act as hypercompressed signal carriers of persistence—each output becomes the input for the next prompt. 
+
+
+![image](https://github.com/user-attachments/assets/65b58fef-a462-42c6-8e10-c8cc5677068c)
+
+![image](https://github.com/user-attachments/assets/1b6b7383-9a94-442c-b112-36cc32cee952)
+
+![image](https://github.com/user-attachments/assets/967f5c8c-c7c2-41a7-9be3-c5d044c36de8)
+
+![image](https://github.com/user-attachments/assets/6df924ef-93ed-4e6a-89ab-b7d0eb5842b1)
+
+![image](https://github.com/user-attachments/assets/d5d30e55-8102-452a-875e-e82d3593911c)
+
+![image](https://github.com/user-attachments/assets/4ad24d54-8012-4e0d-8394-f534a1228777)
+
 
 ![image](https://github.com/user-attachments/assets/c39833a9-16dd-4d4c-91ca-9f607cbe7c48)
 
