@@ -119,7 +119,7 @@ Due to my love for modularity and childhood of tinkering with Legos, I've been f
 
 
 
-## Fractal Schemas For Mental Chunking
+## Context Schemas For Mental Chunking
 
 ![image](https://github.com/user-attachments/assets/350d1fd5-6609-4fd0-a949-cb5120503c29)
 
