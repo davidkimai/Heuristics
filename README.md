@@ -25,7 +25,7 @@ Cognitive Tools Prompt Template
 
 ##
 
-Due to my love for modularity and childhood of tinkering with Legos as well as a background in psychology, I've been fascinated with exploring the idea of these prompts as mini-programs that scaffold the LLM's reasoning and supplement for human mental adaptations such as heuristics, chunking, priming, etc. I'd like to call these "Heuristics" to make things easier as they take many forms. I've been deep in the woods building my own frameworks of what these "Heuristics" could potentially look like. Let's dive into exploring some below: 
+Due to my love for modularity and childhood of tinkering with Legos as well as a background in psychology, I've been fascinated with exploring the idea of prompts as mini-programs that scaffold the LLM's reasoning and supplement for human mental adaptations such as heuristics, chunking, priming, etc. I'd like to call these "Heuristics" to make things easier as they take many forms. I've been deep in the woods building my own frameworks of what these "Heuristics" could potentially look like. Let's dive into exploring some below: 
 
 # Heuristics: 
 
