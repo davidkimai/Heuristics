@@ -25,7 +25,7 @@ Cognitive Tools Prompt Template
 
 ##
 
-Due to my love for modularity and childhood of tinkering with Legos, I've been fascinated with exploring the idea of these prompts as mini-programs that scaffold the LLM's reasoning and supplement for human mental adaptations such as heuristics, chunking, priming, etc. I'd like to call these "Heuristics" to make things easier as they take many forms. I've been deep in the woods building my own frameworks of what these "Heuristics" could potentially look like. Let's dive into exploring some below: 
+Due to my love for modularity and childhood of tinkering with Legos as well as a background in psychology, I've been fascinated with exploring the idea of these prompts as mini-programs that scaffold the LLM's reasoning and supplement for human mental adaptations such as heuristics, chunking, priming, etc. I'd like to call these "Heuristics" to make things easier as they take many forms. I've been deep in the woods building my own frameworks of what these "Heuristics" could potentially look like. Let's dive into exploring some below: 
 
 # Heuristics: 
 
@@ -48,10 +48,10 @@ Due to my love for modularity and childhood of tinkering with Legos, I've been f
 
 > A prompt protocol for repairing alignment in the interaction field between the human and agent. 
 ## Prompt Protocols
-> Note: Protocols include a pseudo-code style of what I like to call prompt programming, a synthesis of code syntax and natural english prompts. This may become more popular as LLMs are exceptional at recognizing structure and syntax, potentially due to a symbolic persistence layer (meaning persists longer in symbols). The delimiters allow for nesting and recursion (layering thought), and the structure allows scaffolding reasoning in a more dynamic sense then Chain of Thought.
+> Note: Protocols include a pseudo-code style of what I like to call prompt programming, a synthesis of code syntax and natural english prompts. This may become more popular as LLMs are exceptional at recognizing structure and syntax, potentially due to a symbolic persistence layer (meaning persists longer in symbols). The delimiters allow for nesting and recursion (layering output input prompt feedback loops, imagine Socratic Dialogue), and the structure allows scaffolding reasoning in a more dynamic sense then Chain of Thought.
 >
 >
-> These prompt protocols allow the agent to run "cognitive shortcuts" by leveraging memory as a library of organized prompt protocols/templates, a sort of "attractor" that guides interactions toward guided and structured logic. These also act as hypercompressed signal carriers of persistence—each output becomes the input for the next prompt, a recursive loop.  
+> These prompt protocols allow the agent to run "cognitive shortcuts" by leveraging memory as a library of organized prompt protocols/templates, a sort of "attractor" that guides interactions with a head start and structured logic. These also act as hypercompressed signal carriers of context—each output becomes the input for the next prompt, a recursive loop.  
 
 
 ![image](https://github.com/user-attachments/assets/1b6b7383-9a94-442c-b112-36cc32cee952)
